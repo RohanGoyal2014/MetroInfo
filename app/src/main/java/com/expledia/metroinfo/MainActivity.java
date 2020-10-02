@@ -91,33 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
-//
-//    public class DownloadImage extends AsyncTask<String, Void, Bitmap>{
-//
-//        @Override
-//        protected Bitmap doInBackground(String... urls) {
-//
-//            URL url = null;
-//            try {
-//                url = new URL(urls[0]);
-//
-//                HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-//
-//                connection.connect();
-//
-//                InputStream inputStream = connection.getInputStream();
-//
-//                Bitmap myBitmap = BitmapFactory.decodeStream(inputStream);
-//
-//                return myBitmap;
-//
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//                return null;
-//            }
-//
-//        }
-//    }
+    
     SearchableSpinner spinner;
     TextView heading, number, landline;
     lists info = new lists();
